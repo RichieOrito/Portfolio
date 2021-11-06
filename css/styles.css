@@ -17,6 +17,7 @@
   --text-color1:#ffffff;
   --text-color2:#1A5E63;
   --text-color3:#00BFB2;
+  --text-color4:#000000;
 
   --big-font: 2rem;
   --h2-font:1rem;
@@ -37,6 +38,7 @@ header{
   z-index:1;
   display: flex;
   align-items:center;
+  justify-content: space-between;
   padding:20px 80px;
   box-shadow:1px 1px 3px 4px #ffffff;
   background-color: var(--bg-color2);
@@ -47,3 +49,22 @@ header{
   font-weight: 500;
   color: var(--text-color1);
 }
+
+.navbar {
+  display: flex;
+}
+
+.navbar a{
+  font-size: 1.2rem;
+  padding:10px 20px;
+  font-weight: 500;
+  color: var(--text-color1);
+  font-weight: 300;
+}
+
+.navbar a:hover {
+  color: var(--text-color3);
+}
+
+/* home */
+
