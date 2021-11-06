@@ -105,3 +105,56 @@ header{
   text-align: center;
   color: var(--bg-color1);
 }
+
+/* projects */
+
+.projects{
+  background-color: var(--bg-color1);
+}
+
+.projects-heading{
+  text-align: center;
+  color: var(--text-color2);
+  
+}
+
+
+.projects-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 10rem;
+}
+
+.box{
+  position: relative;
+  margin-top: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px 4px #1A5E63;
+  padding: 10px ;
+}
+
+.box-img{
+  width: 200px;
+  height: 200px;
+}
+
+.box-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position:center;
+}
+
+.projects-text{
+  color: var(--text-color1);
+}
+
+.projects-text p{
+  color: var(--text-color2);
+}
