@@ -9,3 +9,16 @@
   list-style: none;
   text-decoration: none;
 }
+
+:root {
+  --bg-color1:#00BFB2;
+  --bg-color2:#1A5E63;
+
+  --text-color1:#ffffff;
+  --text-color2:#1A5E63;
+  --text-color3:#00BFB2;
+
+  --big-font: 2rem;
+  --h2-font:1rem;
+  --p-font: 0.9rem;
+}
