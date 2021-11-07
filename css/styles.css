@@ -158,3 +158,27 @@ header{
 .projects-text p{
   color: var(--text-color2);
 }
+
+/* connect */
+
+.connect{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bg-color2);
+}
+
+.connect-text h2{
+  font-size: var(--h2-font);
+  font-weight: bold;
+  
+}
+
+.btn{
+  display: inline-block;
+  background-color: var(--bg-color1);
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  color: var(--text-color1);
+}
+
