@@ -41,7 +41,7 @@ header{
   align-items:center;
   justify-content: space-between;
   padding:20px 80px;
-  box-shadow:1px 1px 3px 4px #000000;
+  box-shadow:1px 1px 1px 1px #000000;
   background-color: var(--bg-color2);
 }
 
