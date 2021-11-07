@@ -22,7 +22,7 @@
 
   --big-font: 1.8rem;
   --h2-font:1.3rem;
-  --p-font: 0.9rem;
+  --p-font: 1.2rem;
 }
 
 section{
@@ -70,7 +70,7 @@ header{
 /* home */
 .home{
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: grid;
   align-items: center;
   text-align: center;
@@ -100,12 +100,59 @@ header{
 .about{
   background-color: var(--bg-color2);
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 .about-heading{
   text-align: center;
   color: var(--bg-color1);
   font-size: var(--h2-font);
+}
+
+.about-img{
+  width: 31%;
+  margin-top: 1rem;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img img{
+  max-width: 30%;
+  border-radius: 0.5rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+.about-img p{
+  line-height: 1.9rem;
+  font-size: var(--p-font);
+  color: var(--text-color1);
+  text-align: center;
+}
+
+.about-tech{
+  width: 40%;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.about-tech h2{
+color: var(--text-color1);
+}
+
+.about-tech ul{
+  margin-top: 1rem;
+}
+
+.about-tech li{
+  color: var(--text-color3);
+  font-size: var(--h2-font);
+  margin-bottom: 1rem;
 }
 
 /* projects */
@@ -124,7 +171,8 @@ header{
 
 .projects-container{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  /* grid-template-columns: repeat(2,1fr); */
   align-items: center;
   gap: 10rem;
 }
@@ -154,13 +202,15 @@ header{
   object-position:center;
 }
 
-.projects-text{
+.box h2{
   color: var(--text-color1);
 }
 
-.projects-text p{
+.box p{
   color: var(--text-color2);
 }
+
+
 
 /* connect */
 
