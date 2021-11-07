@@ -205,3 +205,31 @@ header{
 .contact-text p{
   color: var(--text-color1);
 }
+
+.contact-text h3{
+  text-align: center;
+}
+
+.contact-text h2{
+  text-align: center;
+}
+
+.social{
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social i{
+font-size: 30px;
+color: var(--text-color4);
+}
+
+.social a{
+  color: var(--text-color3);
+}
+
+.social i:hover{
+  color: var(--text-color5);
+}
