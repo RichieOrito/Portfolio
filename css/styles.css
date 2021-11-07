@@ -49,6 +49,12 @@ header{
   font-size: var(--big-font);
   font-weight: 500;
   color: var(--text-color3);
+  text-decoration: underline  yellow;
+}
+
+span{
+  color: var(--text-color5);
+  font-weight: 900;
 }
 
 .navbar {
