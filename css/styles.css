@@ -292,3 +292,21 @@ color: var(--text-color4);
 .social i:hover{
   color: var(--text-color5);
 }
+
+@media (max-width:502px){
+header{
+  padding: 40px 8%;
+}
+
+  header .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+  }
+}
