@@ -78,4 +78,8 @@ Gmail - [richard.omondi@student.moringaschool.com]()
 
 Github - [RICHIE ORITO](https://github.com/RichieOrito)
 
+## Live Link
+
+LiveLink- [Gh-pages](https://richieorito.github.io/Portfolio/)
+
 [Go Back to the top](#portfolio)
