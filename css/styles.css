@@ -22,7 +22,7 @@
 
   --big-font: 1.8rem;
   --h2-font:1.3rem;
-  --p-font: 1.2rem;
+  --p-font: 1.5rem;
 }
 
 section{
@@ -47,7 +47,7 @@ header{
 
 .logo{
   font-size: var(--big-font);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-color3);
   text-decoration: underline  yellow;
 }
@@ -146,6 +146,12 @@ span{
   text-align: center;
 }
 
+.about-img span{
+  color: var(--text-color5);
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .about-tech{
   width: auto;
   text-align: center;
@@ -200,7 +206,6 @@ color: var(--text-color1);
   text-align: center;
   color: var(--text-color2);
   font-size: var(--h2-font);
-  
 }
 
 
@@ -223,6 +228,8 @@ color: var(--text-color1);
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px 4px #1A5E63;
   padding: 10px ;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .box-img{
@@ -245,6 +252,7 @@ color: var(--text-color1);
 .box p{
   color: var(--text-color2);
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 
@@ -262,6 +270,7 @@ color: var(--text-color1);
   font-size: var(--h2-font);
   font-weight: bold;
   color: var(--text-color3);
+  margin-top: 5rem;
   
 }
 
@@ -271,6 +280,7 @@ color: var(--text-color1);
   padding: 10px 20px;
   border-radius: 0.5rem;
   color: var(--text-color1);
+  margin-top: 5rem;
 }
 
 .btn:hover{
@@ -291,14 +301,23 @@ color: var(--text-color1);
 
 .contact-text p{
   color: var(--text-color1);
+  font-weight: bold;
+  text-decoration: underline var(--text-color5);
+}
+
+.contact-text span{
+  color: var(--text-color3);
 }
 
 .contact-text h3{
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contact-text h2{
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .social{
@@ -311,15 +330,28 @@ color: var(--text-color1);
 .social i{
 font-size: 30px;
 color: var(--text-color4);
+background-color: var(--bg-color1);
+padding: 10px 10px;
+border-radius: 0.6rem;
+color: var(--text-color1);
+margin-top: 2rem;
 }
 
 .social a{
   color: var(--text-color3);
-  font-weight: 800;
+  font-weight: bold;
 }
 
 .social i:hover{
   color: var(--text-color5);
+}
+
+footer{
+  padding: 20px;
+  text-align: center;
+  background-color: var(--text-color2);
+  font-size: var(--h2-font);
+  color: var(--text-color1);
 }
 
 @media (max-width:502px){
@@ -335,7 +367,5 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
-
   }
 }
