@@ -1,5 +1,7 @@
 # Portfolio
 ## Design
+### This is a User Interface layout of the website designed using figma
+
 
 ![design](images/Portfolio.png)
 
@@ -16,16 +18,24 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is  my Portfolio website that shows my skills, projects,achievements.
-It contains a landing page of a website built by html and css.</p>
+<p>This is  my Portfolio website that show cases my skills, projects,achievements.
+It contains a landing page of a website built by html and css.
+The Website Is a simple well direct website that any visitor / User can easily
+navigate and get be comfortable with understanding what am all about.</p>
 
 ## Installation
+* Open Terminal (ctrl+Alt+T)
+* Git clone-https://github.com/RichieOrito/Portfolio
+* Git fork-Enter your own repository and search https://github.com/RichieOrito/Portfolio then click on fork to add
+it on your own repository.
 
 ### Requirements
 
-* Either a computer,phone,tablet or an Ipad
+* Either a computer,phone,tablet or an Ipad.
 
-* An access to the Internet
+* An access to the Internet.
+
+* An Active Github Account.
 
 ### Installation Process
 
@@ -33,12 +43,15 @@ It contains a landing page of a website built by html and css.</p>
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the pages incuding the left aside navigation bar.
 
-*figma-which was used to design the prototype of the UI
+* figma-which was used to design the prototype of the UI.
 
 ## Reference
 * LMS
+* FreecodeCamp
+* MDN Docs
+* Youtube
 
 [Go Back to the top](#portfolio)
 
@@ -46,7 +59,7 @@ It contains a landing page of a website built by html and css.</p>
 
 MIT License
 
-Copyright (c) [2019] [Richard Orito]
+Copyright (c) [20121]() [Richard Orito]()
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
