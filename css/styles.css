@@ -258,7 +258,7 @@ color: var(--text-color1);
 
 
 /* connect */
-
+/* 
 .connect{
   display: flex;
   align-items: center;
@@ -285,7 +285,7 @@ color: var(--text-color1);
 
 .btn:hover{
   background-color: var(--text-color5);
-}
+} */
 
 /* contact */
 .contact{
