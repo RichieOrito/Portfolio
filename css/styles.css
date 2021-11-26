@@ -76,7 +76,7 @@ span{
 /* home */
 .home{
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: grid;
   align-items: center;
   text-align: center;
@@ -293,6 +293,7 @@ color: var(--text-color1);
   align-items:center;
   justify-content: space-around;
   background-color: var(--bg-color2);
+  height: 100vh;
 }
 
 .contact-text{
