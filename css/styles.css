@@ -293,7 +293,7 @@ color: var(--text-color1);
   align-items:center;
   justify-content: space-around;
   background-color: var(--bg-color2);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .contact-text{
